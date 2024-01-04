@@ -20,11 +20,35 @@
             <input type="email" name="email" id="email"><br>
 
             <label for="telefone">Telefone</label>
-            <input type="tel" name="telefone" id="telefone">
+            <input type="tel" name="telefone" id="telefone"><br>
 
             <label for="numero">numero de filhos</label>
-            <input type="number" id="numero">
+            <input type="number" id="numero" min="0" max="8">
+            <hr>
+
+            <input type="file"/><br>
+            <p>
+                escolha uma cor:
+            </p>
+            <input type="radio" id="cor-vermelha" name="cor-favorita"><label for = "cor-vermelha" >Vermelha</label>
+            <input type="radio" id="cor-verde" name="cor-favorita"><label for = "cor-verde">verde</label>
+            <input type="radio" id="cor-amarelo" name="cor-favorita"><label for = "cor-amarelo">amarelo</label>
+            <input type="radio" id="cor-azul" name="cor-favorita"><label for = "cor-azul">azul</label><br>
+
+            <label for="filmes">Qual seu filme favorito?</label><br>
+        <select multiple="filmes">
+            <option value="1">Filme A</option>
+            <option value="2">Filme B</option>
+            <option value="3">Filme C</option>
+            <option value="4">Filme D</option>
+        </select><br>
+
+        <label for="Descrição">descreva o produto:</label><br>
+        <textarea name="" id="Descrição" cols="40" rows="5" placeholder="forneça a descrição completa do produto"></textarea><br>
+        <button type="submit">Enviar</button><br>
+        <button type="reset">limpar</button>
         </form>
+        <hr>
     </main>
     <footer>
         &copy; 2023 - Todos os direitos Reservados.
