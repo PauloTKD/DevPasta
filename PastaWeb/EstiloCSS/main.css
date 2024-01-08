@@ -5,8 +5,8 @@
 }
 
 body > header {
-    background-color: black;
-    color: yellow;
+    background-color: rgb(151, 13, 13,0.3);
+    color: rgb(163, 14, 14);
     padding: 16px 0;
 }
 
@@ -71,11 +71,12 @@ section h2, .articles article{
 
 .articles article a{
     text-decoration: none;
-    background-color:black;
-    color: yellow;
+    background-color:rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
     padding: 8px;
     display: inline-block;
     font-weight: 700;
+    border-radius: 5%;
 }
 
 .articles article a:hover{
@@ -83,7 +84,11 @@ section h2, .articles article{
 }
 
 #sports{
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(133, 133, 133,0.3);
+}
+
+#economy{
+    background-color: rgb(247, 0, 0);
 }
 
 #economia{
@@ -93,3 +98,9 @@ section h2, .articles article{
 #economia .articles article a{
     background-color:brown;
 }
+
+#games{
+    background-color: rgb(97, 6, 6, 0.3);}
+
+#trap{
+    background-color: rgba(3, 117, 211, 0.3);}
